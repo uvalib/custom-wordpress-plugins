@@ -14,7 +14,7 @@ function filter_post_data( $data , $postarr ) {
     return $data;
 }
 
-function strip_html($text, $allowed_tags = '<img><table><td><tr><th><div><a><ul><li><b><i><sup><sub><em><strong><u><br><br/><br /><p><h2><h3><h4><h5><h6>')
+function strip_html($text, $allowed_tags = '<img><table><td><tr><th><div><a><ul><ol><li><b><i><sup><sub><em><strong><u><br><br/><br /><p><h2><h3><h4><h5><h6>')
 {
     mb_regex_encoding('UTF-8');
     $text = strip_tags($text, $allowed_tags);

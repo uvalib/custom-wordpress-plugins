@@ -19,7 +19,8 @@ function create_organization_post_type() {
                         'supports' => array(
                               'title',
                               'editor',
-                              'revisions'
+                              'revisions',
+                              'page-attributes'
                         ),
                         'register_meta_box_cb' => 'add_organization_metaboxes',
                         'taxonomies' => array(

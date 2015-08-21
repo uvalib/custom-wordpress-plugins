@@ -1,0 +1,22 @@
+/* ------------------------------------------------------
+  OUR ORGANIZATION
+--------------------------------------------------------- */
+
+.organization-list h3 {
+  clear: both;
+  float: left;
+  padding-right: 20px;
+  width: 20%;
+  margin: 0;
+}
+
+.organization-list h2 .directory { font-family: "ff-dagny-web-pro", "Helvetica Neue", Arial, sans-serif; margin-left: 1.5em; margin-top: -1px;  }
+.organization-list h2 .directory a.btn,
+.organization-list h2 .directory a.btn:hover,
+.organization-list h2 .directory a.btn:visited,
+.organization-list h2 .directory a.btn:active { color: #333; }
+.organization-list .blog-feed { margin-top: 0.33em; overflow: hidden; }
+.organization-list .blog-feed .external-post a { font-size: 14px; font-size: 1.4rem; padding-right: 1.5em; }
+.organization-list .organization-vitals .blog-feed h3 { font-size: 15px; font-size: 1.5rem; }
+.organization-list .item-vitals .vitals-section h4 { padding-right: 20px; width: 20%; }
+.organization .organization-description p { font-size: 15px; font-size: 1.5rem; }

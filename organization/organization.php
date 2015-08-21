@@ -31,6 +31,7 @@ function create_organization_post_type() {
                         'can_export' => true
                  )
         );
+        wp_register_style( 'custom-style', plugins_url( '/organization.css', __FILE__ ), array(), '20150821', 'all' );
 }
 
 // Attach custom field meta box to organization post type
